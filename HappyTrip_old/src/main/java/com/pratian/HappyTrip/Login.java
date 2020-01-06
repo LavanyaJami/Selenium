@@ -22,7 +22,7 @@ public class Login {
 		password.sendKeys("password@123");
 		WebElement submit= driver.findElement(By.id("btnSubmit"));
 		submit.click();
-		//driver.close();
+		driver.close();
 		
 
 	}
